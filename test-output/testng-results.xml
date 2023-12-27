@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-23T14:26:36 IST" name="Default suite" finished-at="2023-12-23T14:27:10 IST" duration-ms="34025">
+    <groups>
+    </groups>
+    <test started-at="2023-12-23T14:26:36 IST" name="Default test" finished-at="2023-12-23T14:27:10 IST" duration-ms="34025">
+      <class name="TestPage.Test_CreateaccountPage">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestPage.Test_CreateaccountPage@1ffaf86]" started-at="2023-12-23T14:26:38 IST" name="launchBrowser" finished-at="2023-12-23T14:26:53 IST" duration-ms="15377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="TestCreateaccount_Homepage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestPage.Test_CreateaccountPage@1ffaf86]" started-at="2023-12-23T14:26:53 IST" name="TestCreateaccount_Homepage" data-provider="getTestData" finished-at="2023-12-23T14:27:10 IST" duration-ms="17198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rathod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sitarathod@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sita@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCreateaccount_Homepage -->
+      </class> <!-- TestPage.Test_CreateaccountPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
